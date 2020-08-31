@@ -2,15 +2,18 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Login Page</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-   
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
   </head>
   <body>
 
-      <form action="index.html" class="login-form">
+      <form action="index.html" id="resizable" class="login-form">
         <h1>Login</h1>
 
         <div class="txtb">
@@ -31,10 +34,18 @@
 
       </form>
 
+      <script>
+        
+        </script>
+
       <script type="text/javascript">
       $(".txtb input").on("focus",function(){
         $(this).addClass("focus");
       });
+
+      $( function() {
+          $( "#resizable" ).resizable();
+        } );
 
       $(".txtb input").on("blur",function(){
         if($(this).val() == "")
