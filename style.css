@@ -8,7 +8,7 @@
 
 body{
   min-height: 100vh;
-  background-image: linear-gradient(120deg,#3498db,#8e44ad);
+  background-image: linear-gradient(110deg,#3498db,#8e44ad,#db345e);
 }
 
 .login-form{
@@ -77,7 +77,7 @@ body{
   width: 100%;
   height: 50px;
   border: none;
-  background: linear-gradient(120deg,#3498db,#8e44ad,#3498db);
+  background: linear-gradient(110deg,#3498db,#8e44ad,#db345e);
   background-size: 200%;
   color: #fff;
   outline: none;
@@ -95,3 +95,10 @@ body{
   font-size: 13px;
 }
 
+/* #resizable {
+   width: 150px; height: 150px; padding: 0.5em; 
+  }
+
+#resizable h1 { 
+  text-align: center; margin: 0; 
+} */
